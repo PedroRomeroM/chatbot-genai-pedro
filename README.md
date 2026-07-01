@@ -3,7 +3,7 @@
 Aplicacao Streamlit publicada para a atividade pratica da disciplina de Produtos de GenAI.
 
 - Repositorio: <https://github.com/PedroRomeroM/chatbot-genai-pedro>
-- Aplicacao publica: pendente de deploy na VM
+- Aplicacao publica: <http://129.148.17.132>
 - Modelo: `meta/llama-3.3-70b-instruct`
 - Stack: Python, Streamlit, OpenAI SDK e NVIDIA API Catalog / NIM
 
@@ -62,7 +62,11 @@ A publicacao foi planejada para uma maquina virtual Oracle Cloud Infrastructure.
 Configuracao usada para deploy:
 
 - Provedor: Oracle Cloud Infrastructure.
+- IP publico: `129.148.17.132`.
+- VM: `chatbot-genai-pedro-01`.
 - Sistema operacional: Ubuntu 24.04.
+- Shape: `VM.Standard.E2.1.Micro`.
+- Recursos: 1 OCPU e 1 GB de RAM.
 - Tipo de aplicacao: servico Python/Streamlit executado atras de Nginx.
 - Porta interna do Streamlit: `8501`.
 - Porta publica: `80`, via proxy reverso Nginx.
